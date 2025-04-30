@@ -1,0 +1,706 @@
+
+<!DOCTYPE html>
+
+<html lang="ja">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>実践特化型AIスクール「LiberAI」</title>
+
+<link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+
+<style>
+
+body {
+
+background-color: #e2dcd6;
+
+font-family: 'Hiragino Sans', 'Hiragino Kaku Gothic ProN', 'Noto Sans JP', Meiryo, sans-serif;
+
+font-size: 16px;
+
+color: #000000;
+
+line-height: 1.6;
+
+}
+
+.container {
+
+max-width: 1000px;
+
+margin: 0 auto;
+
+padding: 20px;
+
+}
+
+h1, h2, h3 {
+
+color: #cc0133;
+
+font-weight: bold;
+
+}
+
+h1 {
+
+font-size: 2.5rem;
+
+margin-top: 1.5rem;
+
+margin-bottom: 1.5rem;
+
+}
+
+h2 {
+
+font-size: 1.8rem;
+
+margin-top: 2rem;
+
+margin-bottom: 1rem;
+
+border-bottom: 3px solid #cc0133;
+
+padding-bottom: 0.5rem;
+
+}
+
+h3 {
+
+font-size: 1.5rem;
+
+margin-top: 1.5rem;
+
+margin-bottom: 1rem;
+
+}
+
+.accent {
+
+color: #0cf3cb;
+
+}
+
+.price-card {
+
+background-color: #ffffff;
+
+border-radius: 10px;
+
+box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+
+padding: 1.5rem;
+
+margin-bottom: 1.5rem;
+
+}
+
+.price-title {
+
+font-size: 1.5rem;
+
+font-weight: bold;
+
+margin-bottom: 1rem;
+
+border-bottom: 2px solid #cc0133;
+
+padding-bottom: 0.5rem;
+
+}
+
+.price-amount {
+
+font-size: 1.8rem;
+
+font-weight: bold;
+
+color: #cc0133;
+
+margin-bottom: 0.5rem;
+
+}
+
+.feature-list li {
+
+margin-bottom: 0.5rem;
+
+padding-left: 1.5rem;
+
+position: relative;
+
+}
+
+.feature-list li:before {
+
+content: "•";
+
+color: #cc0133;
+
+font-weight: bold;
+
+position: absolute;
+
+left: 0;
+
+}
+
+.important-notice {
+
+font-weight: bold;
+
+color: #cc0133;
+
+font-size: 1.2rem;
+
+}
+
+.service-box {
+
+background-color: #ffffff;
+
+border-radius: 10px;
+
+padding: 1.5rem;
+
+margin-bottom: 1.5rem;
+
+box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+
+}
+
+.course-grid {
+
+display: grid;
+
+grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+
+gap: 1.5rem;
+
+margin-top: 2rem;
+
+}
+
+.course-card {
+
+background-color: #ffffff;
+
+border-radius: 10px;
+
+padding: 1.5rem;
+
+box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+
+}
+
+.course-title {
+
+font-size: 1.3rem;
+
+font-weight: bold;
+
+color: #cc0133;
+
+margin-bottom: 0.5rem;
+
+}
+
+.tokusho-section {
+
+background-color: #ffffff;
+
+border-radius: 10px;
+
+padding: 2rem;
+
+margin-top: 3rem;
+
+}
+
+.tokusho-title {
+
+font-size: 1.5rem;
+
+font-weight: bold;
+
+margin-bottom: 1.5rem;
+
+}
+
+.tokusho-item {
+
+margin-bottom: 1.5rem;
+
+}
+
+.tokusho-item-title {
+
+font-weight: bold;
+
+margin-bottom: 0.5rem;
+
+}
+
+.btn {
+
+background-color: #cc0133;
+
+color: white;
+
+padding: 0.75rem 1.5rem;
+
+border-radius: 5px;
+
+font-weight: bold;
+
+display: inline-block;
+
+margin-top: 1rem;
+
+text-decoration: none;
+
+}
+
+.course-icon {
+
+font-size: 2rem;
+
+margin-bottom: 0.5rem;
+
+color: #cc0133;
+
+}
+
+.highlight-box {
+
+background-color: #f9f5f5;
+
+border-left: 5px solid #cc0133;
+
+padding: 1.5rem;
+
+margin: 1.5rem 0;
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1 class="text-center">実践特化型AIスクール「<span style="color: #cc0133;">LiberAI</span>」</h1>
+
+
+
+<div class="highlight-box">
+
+<h2>なぜ今、AIを学ぶ必要があるのか</h2>
+
+<p class="text-lg">AIテクノロジーの急速な発展により、ビジネスや日常生活の様々な場面でAIが活用されるようになりました。ChatGPTやMidjourney、Stable Diffusionなどの登場により、AIは特別な技術者だけでなく、誰もが利用できるようになっています。</p>
+
+<p class="text-lg mt-3">しかし、本当にAIの力を活かすには、単なる操作方法だけでなく、AIの特性を理解し、適切に活用するためのスキルが必要です。今後のビジネスシーンでは、AIを効果的に活用できる人材とそうでない人材の間で、大きな差が生まれることは避けられません。</p>
+
+<p class="text-lg mt-3">LiberAIでは、AI初心者からプロまで、様々なレベルに合わせた実践的なカリキュラムを提供。単なる知識だけでなく、実際のビジネスシーンですぐに活用できるスキルを身につけることができます。</p>
+
+</div>
+
+
+
+<h2>料金プラン</h2>
+
+<div class="flex flex-wrap">
+
+<div class="price-card w-full md:w-1/2 md:pr-4">
+
+<div class="price-title">月額プラン</div>
+
+<div class="price-amount">19,800円（税込：21,780円）</div>
+
+<p class="important-notice">※最低18カ月間のサービスの利用が必須となります</p>
+
+<ul class="feature-list mt-4">
+
+<li>全ての講座コンテンツへのアクセス</li>
+
+<li>月10回のZoomセミナー参加権</li>
+
+<li>専用サポートLINEでのサポート</li>
+
+<li>会員専用Facebookグループへの参加</li>
+
+</ul>
+
+</div>
+
+<div class="price-card w-full md:w-1/2 md:pl-4">
+
+<div class="price-title">買い切りプラン（生涯プラン）</div>
+
+<div class="price-amount">498,000円（税込：547,800円）</div>
+
+<p>一度のお支払いで、永続的にサービスをご利用いただけます</p>
+
+<ul class="feature-list mt-4">
+
+<li>全ての講座コンテンツへの永続アクセス</li>
+
+<li>月10回のZoomセミナー参加権</li>
+
+<li>専用サポートLINEでのサポート</li>
+
+<li>会員専用Facebookグループへの参加</li>
+
+<li class="important-notice">毎月1〜2回行われる合宿への参加特典付き</li>
+
+</ul>
+
+</div>
+
+</div>
+
+
+
+<h2>サービス内容</h2>
+
+<div class="service-box">
+
+<ul class="feature-list text-lg">
+
+<li>ポータルサイト：いつでもどこからでもアクセス可能な学習ポータル</li>
+
+<li>動画コンテンツ：実践的なAI活用法を解説する豊富な動画コンテンツ</li>
+
+<li>Zoomセミナー：月10回開催される双方向型のオンラインセミナー</li>
+
+<li>専用サポートLINE：疑問点やつまずきをすぐに解決できるサポート体制</li>
+
+<li>会員専用Facebookグループ：他の受講生との交流や情報共有の場</li>
+
+<li>AI基礎講座：AIの基本から学べる初心者向けコンテンツ</li>
+
+</ul>
+
+</div>
+
+
+
+<h2>提供コース一覧</h2>
+
+<div class="course-grid">
+
+<div class="course-card">
+
+<div class="course-title">chatGPTマスターコース</div>
+
+<p>ChatGPTを使いこなし、業務効率化や創造的な成果を生み出すためのスキルを習得します。</p>
+
+</div>
+
+<div class="course-card">
+
+<div class="course-title">AIプレイヤーコース</div>
+
+<p>AI技術を活用して実際にビジネスで成果を出すためのスキルを身につけます。</p>
+
+</div>
+
+<div class="course-card">
+
+<div class="course-title">動画生成AIマスターコース</div>
+
+<p>AI技術を活用した動画コンテンツの作成手法を学びます。</p>
+
+</div>
+
+<div class="course-card">
+
+<div class="course-title">AIイラストレーターコース</div>
+
+<p>AI画像生成ツールを使用して、クオリティの高いイラストを作成するスキルを身につけます。</p>
+
+</div>
+
+<div class="course-card">
+
+<div class="course-title">AIデザイナーコース</div>
+
+<p>AIを活用したデザイン制作の効率化と品質向上のテクニックを学びます。</p>
+
+</div>
+
+<div class="course-card">
+
+<div class="course-title">AIコンサルタントコース</div>
+
+<p>企業のAI導入支援や活用戦略の立案ができるコンサルタントスキルを習得します。</p>
+
+</div>
+
+<div class="course-card">
+
+<div class="course-title">Geminiマスターコース</div>
+
+<p>Google社のAIモデルGeminiの特性を理解し、効果的に活用するためのスキルを学びます。</p>
+
+</div>
+
+<div class="course-card">
+
+<div class="course-title">AI美女生成マスターコース</div>
+
+<p>AI画像生成技術を活用した人物画像の作成テクニックを習得します。</p>
+
+</div>
+
+<div class="course-card">
+
+<div class="course-title">AIクリエイターコース</div>
+
+<p>AIを活用して創造的なコンテンツを生み出すスキルを身につけます。</p>
+
+</div>
+
+<div class="course-card">
+
+<div class="course-title">AIエンジニアコース</div>
+
+<p>AIシステムの開発や実装に必要な技術的スキルを習得します。</p>
+
+</div>
+
+<div class="course-card">
+
+<div class="course-title">AIマーケターコース</div>
+
+<p>AIを活用したマーケティング戦略の立案と実行のスキルを学びます。</p>
+
+</div>
+
+<div class="course-card">
+
+<div class="course-title">画像生成AIマスターコース</div>
+
+<p>最新の画像生成AI技術を使いこなし、クオリティの高い画像を作成するスキルを習得します。</p>
+
+</div>
+
+</div>
+
+
+
+<div class="tokusho-section">
+
+<div class="tokusho-title">◆特定商取引法に基づく表記</div>
+
+
+
+<div class="tokusho-item">
+
+<div class="tokusho-item-title">■販売会社</div>
+
+<div>DIコンサルティング株式会社</div>
+
+</div>
+
+
+
+<div class="tokusho-item">
+
+<div class="tokusho-item-title">■代表取締役・販売責任者</div>
+
+<div>芳賀　義隆</div>
+
+</div>
+
+
+
+<div class="tokusho-item">
+
+<div class="tokusho-item-title">■所在地</div>
+
+<div>〒104-0043 東京都中央区湊1-12-11 八重洲第七長岡ビル3F</div>
+
+</div>
+
+
+
+<div class="tokusho-item">
+
+<div class="tokusho-item-title">■電話カスタマーサポート番号</div>
+
+<div>03-6820-8726</div>
+
+<div>営業時間：月〜金　12：00〜17：00　土・日・祝日休み</div>
+
+<div>（大変申し訳ございませんが、非通知でのお電話はお断りさせて頂いております。電話番号を通知してお掛け頂きますようお願い致します）</div>
+
+</div>
+
+
+
+<div class="tokusho-item">
+
+<div class="tokusho-item-title">■メールアドレス</div>
+
+<div>info＠liberai.co.jp</div>
+
+<div>※アドレスは、迷惑メール対策のため、全角の「＠」で表記しております。 お問合わせの際は「＠」を半角の「@」に変更してご利用ください。</div>
+
+</div>
+
+
+
+<div class="tokusho-item">
+
+<div class="tokusho-item-title">■商品価格</div>
+
+<div>月額プラン：19,800円（税込：21,780円）</div>
+
+<div>買い切りプラン：498,000円（税込：547,800円）</div>
+
+</div>
+
+
+
+<div class="tokusho-item">
+
+<div class="tokusho-item-title">■商品提供期間</div>
+
+<div>1年間</div>
+
+<div>※ポータルサイトなどのサービスは商品提供期間以降も引き続きご利用いただけます。</div>
+
+</div>
+
+
+
+<div class="tokusho-item">
+
+<div class="tokusho-item-title">■商品代金以外の必要料金</div>
+
+<div>銀行振り込みの場合は、お振込み手数料が発生します。</div>
+
+</div>
+
+
+
+<div class="tokusho-item">
+
+<div class="tokusho-item-title">■お支払い方法</div>
+
+<div>クレジットカード決済、銀行振込</div>
+
+</div>
+
+
+
+<div class="tokusho-item">
+
+<div class="tokusho-item-title">◼️継続課金について</div>
+
+<div>継続決済をお申込みの方は、毎月自動的に課金されます。</div>
+
+<div>支払日については初回に決済を完了した日付となります。</div>
+
+</div>
+
+
+
+<div class="tokusho-item">
+
+<div class="tokusho-item-title">◼️継続課金の解約について</div>
+
+<div>解約をご希望の場合は<a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="234f4a414651424a634f4a414651424a0d404c0d4953">[email&#160;protected]</a>までお名前とメールアドレスを添えてご連絡下さい。</div>
+
+</div>
+
+
+
+<div class="tokusho-item">
+
+<div class="tokusho-item-title">◼️継続決済の停止処理日について</div>
+
+<div>継続決済の解約をご希望の場合は、次回継続決済の課金日10日前までにお願いいたします。</div>
+
+</div>
+
+
+
+<div class="tokusho-item">
+
+<div class="tokusho-item-title">■商品の引き渡し時期</div>
+
+<div>決済完了後３日以内</div>
+
+</div>
+
+<div class="tokusho-item">
+
+<div class="tokusho-item-title">■お支払期限：</div>
+
+<div>クレジットカード：お申込から24時間以内</div>
+
+<div>銀行振込：お申込から24時間以内</div>
+
+</div>
+
+
+
+<div class="tokusho-item">
+
+<div class="tokusho-item-title">■返品・返金について</div>
+
+<div>提供サービスの特性上、お客様都合による返品/返金はお受け出来かねます。</div>
+
+</div>
+
+
+
+<div class="tokusho-item">
+
+<div class="tokusho-item-title">■表現、及び商品に関する注意書き</div>
+
+<div>本商品に示された表現や再現性には個人差があり、必ずしも利益や効果を保証したものではございません。</div>
+
+</div>
+
+
+
+<div class="tokusho-item">
+
+<div class="tokusho-item-title">■個人情報について</div>
+
+<div>当社はお客様のプライバシーを第一に考え運営しております。お客様の個人情報は、厳正な管理の下で安全に蓄積・保管しております。 当該個人情報は、お客様の同意を得た場合、法律によって要求された場合、あるいは当社の権利や財産を保護する必要が生じた場合を除き、第三者に提供する事はありません。</div>
+
+</div>
+
+</div>
+
+</div>
+
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+
+</html>
+
+<script id="html_badge_script1">
+
+window.__genspark_remove_badge_link = "https://www.genspark.ai/api/html_badge/" +
+
+"remove_badge?token=To%2FBnjzloZ3UfQdcSaYfDvy16TQD7sFEqG4zww6IMWJg2mqwMGi2R8T7XU5nDkA0k%2BEys3UMANtkvurLJU2%2FmOpscZoSjCwJ9L0yFyaNGhpdApt0GLaP7lciZup%2F2mALREvBPxJ8tXUSH5MnQVirLgF99WN4jkbkoEBv6knkRSpL3pZgeg%2F8FP9O3X%2B4fuNfBg45%2BqBeLZDRXNIDqj%2ByHbmy5h4qXOnmuKpTkz%2BvQWXxGK43gq6u69TpjaJRj3Y6PNiKmgdJeXdE9jdEIRmROAL3aUp23c0KtWZlCxwTew00LeQfSzagtRsk%2B%2Bb6kXQ%2Bn3qxF4Mc1QUNGS6WXGylyd3PKqA%2B6DbFBMh%2BbnbsJgI2VGf5I1RhVBFRQxHcrnZdMS1y2DqQVrgk4mYh4iNUV%2F7Tbo4PRUcXfNy0zUhu74Le%2BcwfJkCjV8EJc%2BXBGkw%2B1WfS1ocv6%2BO26uFSByXK4mSYC0JnjVioPcqq2I0la44xjhDTLzRkfoSW2mOdc9f4C%2FyNmQxwALZVEZmW2rXb9irUKkP3zyAeyKT6d%2BvE530%3D";
+
+window.__genspark_locale = "ja-JP";
+
+window.__genspark_token = "To/BnjzloZ3UfQdcSaYfDvy16TQD7sFEqG4zww6IMWJg2mqwMGi2R8T7XU5nDkA0k+Eys3UMANtkvurLJU2/mOpscZoSjCwJ9L0yFyaNGhpdApt0GLaP7lciZup/2mALREvBPxJ8tXUSH5MnQVirLgF99WN4jkbkoEBv6knkRSpL3pZgeg/8FP9O3X+4fuNfBg45+qBeLZDRXNIDqj+yHbmy5h4qXOnmuKpTkz+vQWXxGK43gq6u69TpjaJRj3Y6PNiKmgdJeXdE9jdEIRmROAL3aUp23c0KtWZlCxwTew00LeQfSzagtRsk++b6kXQ+n3qxF4Mc1QUNGS6WXGylyd3PKqA+6DbFBMh+bnbsJgI2VGf5I1RhVBFRQxHcrnZdMS1y2DqQVrgk4mYh4iNUV/7Tbo4PRUcXfNy0zUhu74Le+cwfJkCjV8EJc+XBGkw+1WfS1ocv6+O26uFSByXK4mSYC0JnjVioPcqq2I0la44xjhDTLzRkfoSW2mOdc9f4C/yNmQxwALZVEZmW2rXb9irUKkP3zyAeyKT6d+vE530=";
+
+</script>
+
+
